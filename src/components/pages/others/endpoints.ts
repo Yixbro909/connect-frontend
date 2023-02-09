@@ -1,15 +1,15 @@
 
 const localhost = 'http://localhost:9000'
-const liveHost = 'https://connect-eta-smoky.vercel.app'
+const liveHost = 'https://connect-backend-production-59fc.up.railway.app/'
 
-export const localLoginEndPoint = localhost + '/user/login'
-export const localSignupEndPoint = localhost + '/user/signup'
-export const localCreateRoomEndPoint = localhost + '/room/createroom'
-export const localGetAllRoomsEndPoint = localhost + '/room/getrooms';
-export const localGetOneRoomByRooNameEndPoint = localhost + '/room/getroom/search/'
-export const localGetOneRoomByIdEndPoint = localhost + '/room/getroom/';
-export const localJoinRoomEndpoint = localhost + '/room/joinroom/';
-export const localGetFavRoomEndpoint = localhost + '/favorite_room/get_fav_room/';
-export const localDeleteFavRoomEndpoint = localhost + '/favorite_room/del_fav_room/'
-export const localLeaveRoomEndpoint = localhost + '/room/leaveroom'
-export const localCreateFavRoomEndpoint = localhost + '/favorite_room/create_fav_room'
+export const localLoginEndPoint = liveHost + '/user/login'
+export const localSignupEndPoint = liveHost + '/user/signup'
+export const localCreateRoomEndPoint = liveHost + '/room/createroom'
+export const localGetAllRoomsEndPoint = liveHost + '/room/getrooms';
+export const localGetOneRoomByRooNameEndPoint = liveHost + '/room/getroom/search/'
+export const localGetOneRoomByIdEndPoint = liveHost + '/room/getroom/';
+export const localJoinRoomEndpoint = liveHost + '/room/joinroom/';
+export const localGetFavRoomEndpoint = liveHost + '/favorite_room/get_fav_room/';
+export const localDeleteFavRoomEndpoint = liveHost + '/favorite_room/del_fav_room/'
+export const localLeaveRoomEndpoint = liveHost + '/room/leaveroom'
+export const localCreateFavRoomEndpoint = liveHost + '/favorite_room/create_fav_room'

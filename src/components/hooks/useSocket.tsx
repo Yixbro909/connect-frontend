@@ -1,7 +1,7 @@
 import io, { Socket } from 'socket.io-client';
 
 //connect to socket
-const liveURL = 'https://connect-eta-smoky.vercel.app';
+const liveURL = 'https://connect-backend-production-59fc.up.railway.app/';
 const localURL = 'http://localhost:9000';
 
-export const socket: Socket<any> = io(localURL);
+export const socket: Socket<any> = io(liveURL);
