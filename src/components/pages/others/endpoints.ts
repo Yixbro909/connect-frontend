@@ -1,6 +1,6 @@
 
 const localhost = 'http://localhost:9000'
-const liveHost = 'https://connect-backend-production-59fc.up.railway.app/'
+const liveHost = 'https://connect-backend-production-59fc.up.railway.app'
 
 export const localLoginEndPoint = liveHost + '/user/login'
 export const localSignupEndPoint = liveHost + '/user/signup'
