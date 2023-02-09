@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Luckiest+Guy&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background: #00c853a1 !important;
+} */
+
+* {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.nav-brand,
+#hero-heading,
+#login-heading,
+.createroom-heading,
+.joinroom-heading,
+.room-name-heading {
+  font-family: "Luckiest Guy", cursive !important;
+}
+
+.message-arrow-left:after {
+  content: " ";
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  border-top: 10px solid transparent;
+  border-right: 16px solid#dbeafe;
+  border-left: none;
+  border-bottom: 10px solid transparent;
+}
+
+.message-arrow-right:after {
+  content: " ";
+  position: absolute;
+  right: -15px;
+  top: 10px;
+  border-top: 10px solid transparent;
+  border-right: none;
+  border-left: 16px solid rgb(59 130 246);
+  border-bottom: 10px solid transparent;
+}
