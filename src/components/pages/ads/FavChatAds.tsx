@@ -14,7 +14,7 @@ const FavChatAds = () => {
         AOS.init();
     }, [])
 
-    console.log(favRoom)
+
 
     return (
 
@@ -31,7 +31,7 @@ const FavChatAds = () => {
                                     <div className='rounded-[50%] flex justify-center items-center bg-gradient-to-tr from-blue-600 to-emerald-400 text-white w-[40px] h-[40px] font-bold uppercase'>{nameShorthand(fav.room_name)}</div>
                                     <div className="flex flex-col grow justify-center">
                                         <div className="font-bold tracking-wide uppercase">{fav.room_name}</div>
-                                        <div className="text-muted text-sm">{fav.messages.length > 0 ? fav.messages[fav.messages.length - 1].message : 'no messages yet...'}</div>
+                                        {/* <div className="text-muted text-sm">{fav.messages.length > 0 ? fav.messages[fav.messages.length - 1].message : 'no messages yet...'}</div> */}
                                     </div>
                                 </div>
                             </Link>
