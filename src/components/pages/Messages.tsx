@@ -209,8 +209,8 @@ const Messages = () => {
                                 <div className='p-3 bg-slate-100 rounded-md flex self-end space-x-4 w-full'>
                                     <input type="text" ref={inputRef} placeholder='Type a message ...' className=' bg-slate-100  grow rounded-md outline-none' onChange={(e: React.SyntheticEvent<HTMLInputElement>) => setMessage(e.currentTarget.value)} />
                                     <Tooltip title='Send message' placement='top' arrow>
-                                        <button type='submit'>''
-                                            <SendIcon color='primary' fontSize='medium' />
+                                        <button type='submit'>
+                                            <SendIcon color='primary' fontSize='small' />
                                         </button>
                                     </Tooltip>
                                 </div>

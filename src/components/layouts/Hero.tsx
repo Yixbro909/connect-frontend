@@ -17,14 +17,14 @@ const Hero = () => {
     })
     return (
         <section className='row flex-col-reverse md:flex-row gap-y-5' id="hero">
-            <div data-aos='fade-right' className="col-md-6">
+            <div data-aos='fade-right' className="col-md-6 hidden md:block">
                 <img src="/illustrations/social_illustration.svg" alt="social friends illustrations" />
             </div>
 
             <div data-aos='fade-left' className="col-md-6 flex flex-col space-y-3 drop-shadow-lg">
                 <div className='flex flex-col space-y-2'>
                     <h1 className="text-5xl bg-clip-text text-transparent bg-gradient-to-br from-emerald-400 font-black to-blue-600" id="hero-heading">Join and create chatrooms for your social engagement</h1>
-                    <p className="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, cupiditate expedita at numquam libero magnam vero ea porro aliquid atque.</p>
+                    <p className="text-gray-800">They perfect way to stay connected with friends and family! Our room chat application allows you to easily create and join chat rooms, you can be sure conversation are always secure, Get started today and start connecting with the people you care about!</p>
                 </div>
 
                 <div className='flex flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0 mt-4'>
